@@ -1,0 +1,15 @@
+{
+  "name": "SAMUEL",
+  "short_name": "SAMUEL",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#001F7A",
+  "theme_color": "#001F7A",
+  "icons": [
+    {
+      "src": "https://avatars.githubusercontent.com/u/12345678",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
