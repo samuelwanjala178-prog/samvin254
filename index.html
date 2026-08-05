@@ -253,7 +253,42 @@
             position: relative;
             overflow: hidden;
         }
-
+.services-section {
+    padding: 80px 8%;
+    background: #08111f;
+    text-align: center;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+.service-card {
+    background: #101b2d;
+    padding: 35px 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 255, 136, 0.1);
+    transition: 0.4s;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: #00ff88;
+    box-shadow: 0 15px 40px rgba(0, 255, 136, 0.2);
+}
+.service-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.service-card h3 {
+    color: #00ff88;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.service-card p {
+    color: #9fb3c8;
+    line-height: 1.8;
+}
         .testimonial-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 20px 45px rgba(0,0,0,.35);
